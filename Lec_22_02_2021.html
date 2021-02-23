@@ -8,10 +8,10 @@
     <style>
         .btn_primary {
             background-color:rgb(230, 41, 41);
-            border: 1px solid black;
+            border: 3px solid black;
             color: white;
-            width: 200px;
-            height: 20px;
+            /* width: 200px;
+            height: 20px; */
         }
     </style>
 </head>
@@ -40,10 +40,13 @@
             <option value="bac">Bachelor</option>
             <option value="mas">Master</option>
         </select><br>
+
+        <input type="file" name="profile_pic" id="profile" accept=".jpg,.jpeg,.png"> <br>
+
         <label for="fb">Feedback</label><br>
         <textarea name="Feedback" id="fb" cols="30" rows="10" placeholder="Must type  40 words " maxlength="600"></textarea><br>
         <input class="btn_primary" type="submit" value="submit">
-        <a href="#" target="_blank">open new tab</a>
+        <input class="btn_primary" type="reset" value="reset">
     </form>
 </body>
 </html>
