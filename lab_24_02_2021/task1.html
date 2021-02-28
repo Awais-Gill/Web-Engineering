@@ -11,13 +11,16 @@
             display: block;
         }
         input[type="file"] {
-            margin-left: 37px;
+            display: block;
+            width: 180px;
+            margin: 0px auto;
         }
         label {
             width: 100%;
             margin: 0px 0px;
             text-align: center;
             display: inline-block;
+            font-weight: bold;
         }
         .btn-green {
             background-color: green;
@@ -27,7 +30,7 @@
             }
 
         form {
-            border: 2px solid green;
+            /* border: 2px solid green; */
             width: 250px;
             margin-left: 40%;
             height: 400px;
@@ -36,20 +39,22 @@
 </head>
 <body>
         <form>
-            <label for="fname">First Name:</label> <br>
-            <input type="text" name="fname" id="fname" placeholder="ABCD"> <br>
-            <label for="lname">Last Name:</label> <br>
-            <input type="text" name="lname" id="lname"> <br>
-            <label for="email">Email:</label> <br>
-            <input type="email" name="email" id="email"> <br>
-            <label for="color">Select your favorite color:</label> <br>
-            <input type="color" name="color" id="color"><br>
-            <label for="dob">Birthday:</label> <br>
-            <input type="date" name="dob" id="dob"> <br>
-            <label for="">Select a file:</label>
-            <input type="file" name="" accept=".pdf,.png" id=""> <br>
+            <fieldset>
+                <label for="fname">First Name:</label> <br>
+                <input type="text" name="fname" id="fname" placeholder="ABCD"> <br>
+                <label for="lname">Last Name:</label> <br>
+                <input type="text" name="lname" id="lname"> <br>
+                <label for="email">Email:</label> <br>
+                <input type="email" name="email" id="email"> <br>
+                <label for="color">Select your favorite color:</label> <br>
+                <input type="color" name="color" id="color"><br>
+                <label for="dob">Birthday:</label> <br>
+                <input type="date" name="dob" id="dob"> <br>
+                <label for="">Select a file:</label>
+                <input type="file" name="" accept=".pdf,.png" id=""> <br>
 
-            <input type="submit" class="btn-green" name="submit" value="Submit">
+                <input type="submit" class="btn-green" name="submit" value="Submit">
+            </fieldset>
         </form>
 </body>
 </html>
