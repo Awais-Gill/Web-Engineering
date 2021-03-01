@@ -1,0 +1,50 @@
+.bd {
+    border: 2px solid black;
+}
+.bd-green {
+    border-color:green;
+}
+.bd-gray {
+    border-color:gray;
+}
+.bd-yellow {
+    border-color:yellow;
+}
+.bd-pink {
+    border-color:pink;
+}
+.bd-liblue {
+    border-color:lightblue;
+}
+.bd-red {
+    border-color:red;
+}
+.bd-orange {
+    border-color:orange;
+}
+
+.green {
+    background-color: green;
+}
+.gray {
+    background-color: gray;
+}
+.yellow {
+    background-color: yellow;
+}
+.pink {
+    background-color: pink;
+}
+.liblue {
+    background-color: lightblue;
+}
+.red {
+    background-color: red;
+}
+.orange {
+    background-color: orange;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
